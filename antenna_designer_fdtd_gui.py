@@ -10,7 +10,7 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.figure import Figure
 from mpl_toolkits.mplot3d import Axes3D
 
-# --- IMPORTA O MOTOR FDTD (O ARQUIVO QUE VOCÊ CRIOU NO PASSO 2) ---
+# --- IMPORTA O MOTOR FDTD---
 try:
     from fdtd_engine_numba import FDTDGrid, modulated_gaussian_pulse, calculate_s11, c0
 except ImportError:
